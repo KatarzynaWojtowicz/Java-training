@@ -11,11 +11,11 @@ public class MagicEightBall {
 				"Reply hazy try again", "Ask again later", "Better not tell you now", "Cannot predict now",
 				"Concentrate and ask again", "Don't count on it", "My reply is no", "My sources say no",
 				"Outlook not so good", "Very doubtful" };
-		System.out.println("Klick 0 if You want know the answer ");
+		System.out.println("Click 0 if You want know the answer ");
 		Scanner input = new Scanner(System.in);
-		int klick = input.nextInt();
+		int click = input.nextInt();
 
-		if (klick == 0) {
+		if (click == 0) {
 			Random r = new Random();
 			int randomIndex = r.nextInt(answers.length - 1);
 			System.out.println(answers[randomIndex]);
