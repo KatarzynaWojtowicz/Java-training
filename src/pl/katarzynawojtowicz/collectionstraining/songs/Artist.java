@@ -1,4 +1,4 @@
-package pl.katarzynawojtowicz.collectionstraining;
+package pl.katarzynawojtowicz.collectionstraining.songs;
 
 public class Artist implements Comparable<Artist>{
 	private String name;

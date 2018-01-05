@@ -1,4 +1,4 @@
-package pl.katarzynawojtowicz.collectionstraining;
+package pl.katarzynawojtowicz.collectionstraining.songs;
 
 import java.util.Comparator;
 
