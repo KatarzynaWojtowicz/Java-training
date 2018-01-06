@@ -21,6 +21,7 @@ public class MagicEightBall {
 			System.out.println(answers[randomIndex]);
 
 		}
+		input.close();
 
 	}
 
