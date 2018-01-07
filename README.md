@@ -5,5 +5,5 @@
 * Palindrom
 * MagicEightBall
 * Jackson Training (JSON Mapping)
-* Collections Training (Comparator, Comparable)
+* Collections Training (Comparator, Comparable, Sets)
 * File operations
