@@ -7,3 +7,4 @@
 * Jackson Training (JSON Mapping)
 * Collections Training (Comparator, Comparable, Sets, Lists, Maps)
 * File operations
+* Constructor Training
