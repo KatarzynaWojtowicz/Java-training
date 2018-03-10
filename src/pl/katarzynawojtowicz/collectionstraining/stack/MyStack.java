@@ -1,9 +1,10 @@
 package pl.katarzynawojtowicz.collectionstraining.stack;
 
 import java.util.LinkedList;
+import java.util.List;
 
 public class MyStack <E> {
-	private LinkedList<E> list;
+	private List<E> list;
 	
 	public MyStack() {
 		list = new LinkedList<E>();
@@ -14,7 +15,7 @@ public class MyStack <E> {
 	}
 	
 	public E pop() {
-		return list.removeLast();
+		return list.remove(list.size() - 1);
 	}
 
 	public int size() {
