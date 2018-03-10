@@ -1,4 +1,4 @@
-package pl.katarzynawojtowicz.stacktraining;
+package pl.katarzynawojtowicz.collectionstraining.stack;
 
 public class StackTraining {
 public static void main(String[] args) {
@@ -9,11 +9,11 @@ public static void main(String[] args) {
 	myStack.push(102);
 	myStack.push(-6);
 	
-	myStack.view();
+	System.out.println(myStack.toString());
 	
 	myStack.pop();
 	
-	myStack.view();
-	myStack.size();
+	System.out.println(myStack.toString());
+	System.out.println(myStack.size());
 }
 }

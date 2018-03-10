@@ -1,4 +1,4 @@
-package pl.katarzynawojtowicz.stacktraining;
+package pl.katarzynawojtowicz.collectionstraining.stack;
 
 import java.util.LinkedList;
 
@@ -17,11 +17,13 @@ public class MyStack <E> {
 		return list.removeLast();
 	}
 
-	public void view() {
-		System.out.println(list);
+	public int size() {
+		return list.size();
 	}
 	
-	public void size() {
-		System.out.println(list.size());
+	@Override
+	public String toString() {
+		return this.list.toString();
 	}
+	
 }
