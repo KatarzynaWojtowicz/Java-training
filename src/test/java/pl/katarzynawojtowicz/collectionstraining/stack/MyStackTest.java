@@ -1,19 +1,12 @@
 package pl.katarzynawojtowicz.collectionstraining.stack;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import static org.junit.Assert.assertTrue;
 
-public class MyStackTest extends TestCase {
+import org.junit.Test;
 
-	public MyStackTest(String testName) {
-		super(testName);
-	}
+public class MyStackTest {
 
-	public static Test suite() {
-		return new TestSuite(MyStackTest.class);
-	}
-
+	@Test
 	public void shouldAddElementToEndOfStack() {
 		// Given
 		MyStack<Integer> stack = new MyStack<Integer>();
