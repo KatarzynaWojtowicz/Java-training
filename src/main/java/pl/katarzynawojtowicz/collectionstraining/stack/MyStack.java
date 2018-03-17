@@ -22,6 +22,11 @@ public class MyStack <E> {
 		return list.size();
 	}
 	
+	public E get(int index) {
+		return list.get(index);
+	}
+	
+	
 	@Override
 	public String toString() {
 		return this.list.toString();
