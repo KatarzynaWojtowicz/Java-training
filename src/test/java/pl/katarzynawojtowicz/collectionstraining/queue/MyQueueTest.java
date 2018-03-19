@@ -37,4 +37,20 @@ public class MyQueueTest {
 		Assert.assertEquals("[8, 1]", resultString);
 	}
 
+	@Test
+	public void shouldReturnSize() throws Exception {
+
+		// Given
+		MyQueue<Integer> queue = new MyQueue<Integer>();
+		queue.add(5);
+		queue.add(8);
+		queue.add(1);
+
+		// When
+		int result = queue.size();
+
+		// Then
+		Assert.assertEquals(3, result);
+	}
+
 }
