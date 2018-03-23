@@ -17,8 +17,10 @@ public class Author implements Comparable<Author> {
 
 	@Override
 	public int compareTo(Author o) {
-		return o.getName().compareTo(o.name);
+		int result = this.name.compareTo(o.getName());
+		return result;
 	}
+
 	@Override
 	public String toString() {
 		return this.name;
